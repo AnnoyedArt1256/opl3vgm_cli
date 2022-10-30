@@ -15,6 +15,7 @@ This project plays VGM files through OPL1/2/3 emulators (emu8950 and Nuked-OPL3 
 * .vgz files are not supported.
 * Dual-chip .vgm files and .vgm files which include chips other than OPL1/2/3 are not supported.
 * The visualizer is only for educational and/or entertainment purposes only.
+* I edited Nuked-OPL3's code so that it allows custom clock speeds
 
 ### How to Compile
 You can use this one-liner to compile this program:
@@ -25,5 +26,8 @@ then you can run the program by importing a VGM file as an argument:
 ```
 opl3vgm Drax_-_Bus.vgm
 ```
+libraries used:
+![emu8950](https://github.com/digital-sound-antiques/emu8950)
+![Nuked-OPL3](https://github.com/nukeykt/Nuked-OPL3)
 
 2022 AArt1256
