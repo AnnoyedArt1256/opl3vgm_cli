@@ -20,7 +20,7 @@ This project plays VGM files through OPL1/2/3 emulators (emu8950 and Nuked-OPL3 
 ### How to Compile
 You can use this one-liner to compile this program:
 ```
-gcc main.c .c opl3.c emu8950.c emuadpcm.c <SDL2 compiler flags> -o opl3vgm
+gcc main.c opl3.c emu8950.c emuadpcm.c <SDL2 compiler flags> -o opl3vgm
 ```
 then you can run the program by importing a VGM file as an argument:
 ```
